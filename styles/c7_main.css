@@ -17,11 +17,11 @@ body {
 a:focus, a:hover {
 	font-style: italic;
 }
-#nav_menu ul{
+/*#nav_menu ul{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-}
+}*/
 #nav_menu ul li{
 	float: left;
 }
@@ -40,7 +40,7 @@ a:focus, a:hover {
 }
 #nav_menu ul{
 	position: relative;
-	list-style-type: none;
+	list-style-type: none; /* Changes (none) */
 	padding: 0;
 	margin: 0;
 }
@@ -109,7 +109,8 @@ section blockquote {
 	font-style: italic;
 }
 section ul {
-	padding: 0 0 .25em 1.25em;
+	padding: 0 0 .25em 1.25em; /*----*/
+	list-style-type: circle;
 }
 section li {
 	padding-bottom: .35em;
